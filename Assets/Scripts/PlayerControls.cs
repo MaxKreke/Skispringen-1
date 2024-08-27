@@ -15,6 +15,7 @@ public class PlayerControls : MonoBehaviour
     public int activeCharacter = 0;
 
     public LayerMask GroundLayers;
+    public LayerMask HerzLayer;
     private Rigidbody body;
     public Camera ownCamera;
 
@@ -22,7 +23,7 @@ public class PlayerControls : MonoBehaviour
 
     public bool grounded = false;
     private static float maxSpeed = 15;
-    public float jumpforce = 10;
+    private float jumpforce = 8;
     public float speed = 1;
     private Terminal terminal;
 
@@ -44,10 +45,21 @@ public class PlayerControls : MonoBehaviour
         Shoot();
     }
 
-    //Wall Jump enabled
+    //Wall Jump disabled
     private void GroundedCheck()
     {
+        //Sphere is set so it only checks feet
         grounded = Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, GroundLayers);
+        HerzCheck();
+    }
+
+    private void HerzCheck()
+    {
+        if (Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, HerzLayer))
+        {
+            Debug.Log("UP UP UP");
+            body.AddForce(Vector3.up * jumpforce * 2, ForceMode.Impulse);
+        }
     }
 
     private void JumpAndGravity()
@@ -177,7 +189,7 @@ public class PlayerControls : MonoBehaviour
     private void Shoot()
     {
         if (Input.GetMouseButtonDown(0))
-            if (activeCharacter == 0) SummonLiebesHeart();
+            if (activeCharacter == 0 && grounded) SummonLiebesHeart();
     }
 
     private void SummonLiebesHeart()

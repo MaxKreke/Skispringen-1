@@ -259,10 +259,13 @@ MonoBehaviour:
   GroundLayers:
     serializedVersion: 2
     m_Bits: 1
+  HerzLayer:
+    serializedVersion: 2
+    m_Bits: 256
   ownCamera: {fileID: 1857215377}
   liebesHerz: {fileID: 380324770091757255}
   grounded: 0
-  jumpforce: 10
+  jumpforce: 8
   speed: 1
 --- !u!1 &278634384
 GameObject:
@@ -1084,7 +1087,7 @@ GameObject:
   - component: {fileID: 3102015168117286990}
   - component: {fileID: 4568217002975168029}
   - component: {fileID: 8930919688008367613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Liebesherz
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -7,9 +7,6 @@ public class PlayerControls : MonoBehaviour
     public bool havePissBoy;
     public bool haveGoblin;
     public bool haveMatheMann;
-    public bool havePissOrb;
-    public bool haveGoblinOrb;
-    public bool haveMinusOrb;
 
     //Opa = 0
     //Pissboy = 1
@@ -20,6 +17,9 @@ public class PlayerControls : MonoBehaviour
     public LayerMask GroundLayers;
     private Rigidbody body;
     public Camera ownCamera;
+
+    public GameObject liebesHerz;
+
     public bool grounded = false;
     private static float maxSpeed = 15;
     public float jumpforce = 10;
@@ -41,12 +41,13 @@ public class PlayerControls : MonoBehaviour
         if (grounded) Move();
         else Move(true);
         ClampSpeed();
+        Shoot();
     }
 
     //Wall Jump enabled
     private void GroundedCheck()
     {
-        grounded = Physics.CheckSphere(transform.position + Vector3.down * .1f, .6f, GroundLayers);
+        grounded = Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, GroundLayers);
     }
 
     private void JumpAndGravity()
@@ -171,5 +172,19 @@ public class PlayerControls : MonoBehaviour
         if (up) activeCharacter++;
         else activeCharacter--;
         activeCharacter %= MaxAvailableCharacter();
+    }
+
+    private void Shoot()
+    {
+        if (Input.GetMouseButtonDown(0))
+            if (activeCharacter == 0) SummonLiebesHeart();
+    }
+
+    private void SummonLiebesHeart()
+    {
+        liebesHerz.transform.rotation = Quaternion.identity;
+        liebesHerz.transform.position = transform.GetChild(0).GetChild(0).position+ Camera.main.transform.forward*1.5f;
+        liebesHerz.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        liebesHerz.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward*400);
     }
 }

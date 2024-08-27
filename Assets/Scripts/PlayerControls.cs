@@ -23,8 +23,8 @@ public class PlayerControls : MonoBehaviour
 
     public bool grounded = false;
     private static float maxSpeed = 15;
-    private float jumpforce = 8;
-    public float speed = 1;
+    private float jumpforce = 9;
+    private float speed = 1;
     private Terminal terminal;
 
     // Start is called before the first frame update
@@ -55,11 +55,7 @@ public class PlayerControls : MonoBehaviour
 
     private void HerzCheck()
     {
-        if (Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, HerzLayer))
-        {
-            Debug.Log("UP UP UP");
-            body.AddForce(Vector3.up * jumpforce * 2, ForceMode.Impulse);
-        }
+        if (Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, HerzLayer))body.velocity = Vector3.ProjectOnPlane(body.velocity, Vector3.up) + Vector3.up * jumpforce * 1.8f;
     }
 
     private void JumpAndGravity()

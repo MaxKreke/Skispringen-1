@@ -265,8 +265,6 @@ MonoBehaviour:
   ownCamera: {fileID: 1857215377}
   liebesHerz: {fileID: 380324770091757255}
   grounded: 0
-  jumpforce: 8
-  speed: 1
 --- !u!1 &278634384
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +277,7 @@ GameObject:
   - component: {fileID: 278634388}
   - component: {fileID: 278634387}
   - component: {fileID: 278634389}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}

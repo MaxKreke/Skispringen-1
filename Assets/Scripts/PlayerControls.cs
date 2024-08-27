@@ -189,8 +189,9 @@ public class PlayerControls : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             if (activeCharacter == 0 && grounded) SummonLiebesHeart();
-            if (activeCharacter == 2) LaunchGoblin();
+            if (activeCharacter == 2) LaunchGoblin();  
         }
+        if (Input.GetMouseButton(0) && activeCharacter == 1) Piss();
     }
 
     private void SummonLiebesHeart()
@@ -211,5 +212,11 @@ public class PlayerControls : MonoBehaviour
         {
             Destroy(container.GetChild(0).gameObject);
         }
+    }
+
+    private void Piss()
+    {
+        ApplyForce(-Camera.main.transform.forward*5);
+        transform.GetChild(0).GetChild(2).GetComponent<ParticleSystem>().Emit(1);
     }
 }

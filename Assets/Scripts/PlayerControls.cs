@@ -20,6 +20,7 @@ public class PlayerControls : MonoBehaviour
     public Camera ownCamera;
 
     public GameObject liebesHerz;
+    public GameObject goblinCube;
 
     public bool grounded = false;
     private static float maxSpeed = 15;
@@ -180,12 +181,16 @@ public class PlayerControls : MonoBehaviour
         if (up) activeCharacter++;
         else activeCharacter--;
         activeCharacter %= MaxAvailableCharacter();
+        transform.GetChild(0).GetChild(0).gameObject.GetComponent<Orb>().Activate(activeCharacter);
     }
 
     private void Shoot()
     {
         if (Input.GetMouseButtonDown(0))
+        {
             if (activeCharacter == 0 && grounded) SummonLiebesHeart();
+            if (activeCharacter == 2) LaunchGoblin();
+        }
     }
 
     private void SummonLiebesHeart()
@@ -194,5 +199,17 @@ public class PlayerControls : MonoBehaviour
         liebesHerz.transform.position = transform.GetChild(0).GetChild(0).position+ Camera.main.transform.forward*1.5f;
         liebesHerz.GetComponent<Rigidbody>().velocity = Vector3.zero;
         liebesHerz.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward*400);
+    }
+
+    private void LaunchGoblin()
+    {
+        Transform container = transform.GetChild(1);
+        GameObject goblinGrenade = Instantiate(goblinCube, transform.GetChild(0).GetChild(0).position + Camera.main.transform.forward, Quaternion.identity);
+        goblinGrenade.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 2000);
+        goblinGrenade.transform.SetParent(container);
+        if(container.childCount > 99)
+        {
+            Destroy(container.GetChild(0).gameObject);
+        }
     }
 }

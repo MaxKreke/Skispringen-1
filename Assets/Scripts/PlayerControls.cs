@@ -44,6 +44,7 @@ public class PlayerControls : MonoBehaviour
         else Move(true);
         ClampSpeed();
         Shoot();
+        BasicDeathCheck();
     }
 
     //Wall Jump disabled
@@ -218,5 +219,10 @@ public class PlayerControls : MonoBehaviour
     {
         ApplyForce(-Camera.main.transform.forward*5);
         transform.GetChild(0).GetChild(2).GetComponent<ParticleSystem>().Emit(1);
+    }
+
+    private void BasicDeathCheck()
+    {
+        if (transform.position.y < -1000) transform.position += Vector3.up * 1500;
     }
 }

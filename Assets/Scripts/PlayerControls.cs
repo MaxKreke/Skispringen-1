@@ -223,6 +223,10 @@ public class PlayerControls : MonoBehaviour
 
     private void BasicDeathCheck()
     {
-        if (transform.position.y < -1000) transform.position += Vector3.up * 1500;
+        if (transform.position.y < -1000)
+        {
+            transform.position += Vector3.up * 1500;
+            body.velocity = Vector3.zero;
+        }
     }
 }

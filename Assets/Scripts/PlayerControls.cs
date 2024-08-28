@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
-    public bool havePissBoy;
-    public bool haveGoblin;
-    public bool haveMatheMann;
-
     //Opa = 0
-    //Pissboy = 1
-    //Goblin = 2
+    //Goblin = 1
+    //Pissboy = 2
     //Mathemann = 3
-    public int activeCharacter = 0;
+    public int characterID = 0;
 
     public LayerMask GroundLayers;
     public LayerMask HerzLayer;
@@ -170,31 +166,15 @@ public class PlayerControls : MonoBehaviour
         body.velocity = modifiedVelocity;
     }
 
-    public int MaxAvailableCharacter()
-    {
-        if (haveMatheMann) return 3;
-        if (haveGoblin) return 2;
-        if (havePissBoy) return 1;
-        return 0;
-    }
-
-    private void SwitchCharacter(bool up)
-    {
-        if (up) activeCharacter++;
-        else activeCharacter--;
-        activeCharacter %= MaxAvailableCharacter();
-        transform.GetChild(0).GetChild(0).gameObject.GetComponent<Orb>().Activate(activeCharacter);
-    }
-
     private void Shoot()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            if (activeCharacter == 0 && grounded) SummonLiebesHeart();
-            if (activeCharacter == 2) LaunchGoblin();
-            if (activeCharacter == 3) ShootMinus();
+            if (characterID == 0 && grounded) SummonLiebesHeart();
+            if (characterID == 1) LaunchGoblin();
+            if (characterID == 3) ShootMinus();
         }
-        if (Input.GetMouseButton(0) && activeCharacter == 1) Piss();
+        if (Input.GetMouseButton(0) && characterID == 2) Piss();
     }
 
     private void SummonLiebesHeart()
@@ -243,5 +223,18 @@ public class PlayerControls : MonoBehaviour
         {
             Destroy(container.GetChild(0).gameObject);
         }
+    }
+
+    public void Deactivate()
+    {
+        transform.GetChild(0).gameObject.SetActive(false);
+        body.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionX;
+        this.GetComponent<PlayerControls>().enabled = false;
+    }
+
+    public void Activate()
+    {
+        transform.GetChild(0).gameObject.SetActive(true);
+        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
     }
 }

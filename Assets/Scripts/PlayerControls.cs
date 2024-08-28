@@ -187,7 +187,7 @@ public class PlayerControls : MonoBehaviour
 
     private void LaunchGoblin()
     {
-        Transform container = transform.GetChild(1);
+        Transform container = GameObject.Find("GoblinContainer").transform;
         GameObject goblinGrenade = Instantiate(goblinCube, transform.GetChild(0).GetChild(0).position + Camera.main.transform.forward, Quaternion.identity);
         goblinGrenade.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 2000);
         goblinGrenade.transform.SetParent(container);

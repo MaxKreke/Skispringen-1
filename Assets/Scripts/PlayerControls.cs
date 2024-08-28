@@ -21,8 +21,9 @@ public class PlayerControls : MonoBehaviour
 
     public GameObject liebesHerz;
     public GameObject goblinCube;
+    public GameObject minus;
 
-    public bool grounded = false;
+    private bool grounded = false;
     private static float maxSpeed = 15;
     private float jumpforce = 9;
     private float speed = 1;
@@ -190,7 +191,8 @@ public class PlayerControls : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             if (activeCharacter == 0 && grounded) SummonLiebesHeart();
-            if (activeCharacter == 2) LaunchGoblin();  
+            if (activeCharacter == 2) LaunchGoblin();
+            if (activeCharacter == 3) ShootMinus();
         }
         if (Input.GetMouseButton(0) && activeCharacter == 1) Piss();
     }
@@ -209,10 +211,7 @@ public class PlayerControls : MonoBehaviour
         GameObject goblinGrenade = Instantiate(goblinCube, transform.GetChild(0).GetChild(0).position + Camera.main.transform.forward, Quaternion.identity);
         goblinGrenade.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 2000);
         goblinGrenade.transform.SetParent(container);
-        if(container.childCount > 99)
-        {
-            Destroy(container.GetChild(0).gameObject);
-        }
+        checkIfFull(container);
     }
 
     private void Piss()
@@ -227,6 +226,22 @@ public class PlayerControls : MonoBehaviour
         {
             transform.position += Vector3.up * 1500;
             body.velocity = Vector3.zero;
+        }
+    }
+
+    private void ShootMinus()
+    {
+        Transform container = GameObject.Find("MinusContainer").transform;
+        GameObject minusProjectile = Instantiate(minus, transform.GetChild(0).GetChild(0).position + Camera.main.transform.forward, ownCamera.transform.rotation);
+        minusProjectile.transform.SetParent(container);
+        checkIfFull(container);
+    }
+
+    private void checkIfFull(Transform container)
+    {
+        if (container.childCount > 99)
+        {
+            Destroy(container.GetChild(0).gameObject);
         }
     }
 }

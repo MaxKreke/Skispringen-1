@@ -229,6 +229,7 @@ public class PlayerControls : MonoBehaviour
     public void Deactivate()
     {
         transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(1).gameObject.SetActive(true);
         body.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionX;
         this.GetComponent<PlayerControls>().enabled = false;
     }
@@ -236,6 +237,7 @@ public class PlayerControls : MonoBehaviour
     public void Activate()
     {
         transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(false);
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
     }
 }

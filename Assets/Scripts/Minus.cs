@@ -17,6 +17,7 @@ public class Minus : MonoBehaviour
     {
         gameObject.transform.position += direction;
         if (Physics.CheckSphere(transform.position, .05f, collisionLayers)) direction = Vector3.zero;
+
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, .15f);
         foreach(Collider hitCollider in hitColliders)
         {

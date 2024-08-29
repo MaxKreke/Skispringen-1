@@ -7,6 +7,8 @@ TagManager:
   - Destructible
   - Feuer
   - Button
+  - Minus
+  - Plus
   layers:
   - Default
   - TransparentFX
@@ -27,7 +29,7 @@ TagManager:
   - PissLayer
   - GoblinsLayer
   - MinusLayer
-  - 
+  - ArithmeticLayer
   - 
   - 
   - 

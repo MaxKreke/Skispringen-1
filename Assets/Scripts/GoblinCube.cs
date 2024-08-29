@@ -11,5 +11,9 @@ public class GoblinCube : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(this.gameObject);
         }
+        if (collision.gameObject.tag == "Feuer")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

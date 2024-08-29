@@ -214,6 +214,7 @@ public class PlayerControls : MonoBehaviour
         Transform container = GameObject.Find("MinusContainer").transform;
         GameObject minusProjectile = Instantiate(minus, transform.GetChild(0).GetChild(0).position + Camera.main.transform.forward, ownCamera.transform.rotation);
         minusProjectile.transform.SetParent(container);
+        minusProjectile.GetComponent<Minus>().direction = ownCamera.transform.forward/10; 
         checkIfFull(container);
     }
 

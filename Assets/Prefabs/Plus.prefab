@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8726193868888975146}
   - component: {fileID: 5205054193814111166}
   - component: {fileID: 964632338104365255}
-  - component: {fileID: 9776675917714099}
+  - component: {fileID: 6475527601447317507}
   m_Layer: 19
-  m_Name: Minus
-  m_TagString: Minus
+  m_Name: Plus
+  m_TagString: Plus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3420672161557089627}
-  m_Mesh: {fileID: -2432090755550338912, guid: f97429124daa5af4d84779dcf6bd1505, type: 3}
+  m_Mesh: {fileID: -2432090755550338912, guid: 4f5e24274f0a7fd42b38312d30f0e5d7, type: 3}
 --- !u!23 &5205054193814111166
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -101,10 +101,10 @@ MonoBehaviour:
   collisionLayers:
     serializedVersion: 2
     m_Bits: 1
-  minus: {fileID: 3420672161557089627}
-  plus: {fileID: 3420672161557089627, guid: 05f352d544cd76c4fb73d1e55a67f726, type: 3}
-  positive: 0
---- !u!65 &9776675917714099
+  minus: {fileID: 3420672161557089627, guid: 2587e462aa5cb774794bbb5072e67f9a, type: 3}
+  plus: {fileID: 3420672161557089627}
+  positive: 1
+--- !u!65 &6475527601447317507
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,5 +115,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 1, z: 1}
+  m_Size: {x: 3, y: 3, z: 1}
   m_Center: {x: 0.5, y: 0.5, z: -0.5}

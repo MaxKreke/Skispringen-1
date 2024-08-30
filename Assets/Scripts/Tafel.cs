@@ -8,6 +8,7 @@ public class Tafel : MonoBehaviour
     public Material tafelSolved;
     public GameObject barricade;
     public GameObject[] fields;
+    public AudioClip matheMann;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,11 @@ public class Tafel : MonoBehaviour
 
     private void SolveTafel()
     {
-        if(barricade)Destroy(barricade);
+        if (barricade)
+        {
+            Destroy(barricade);
+            AudioSource.PlayClipAtPoint(matheMann, transform.position);
+        }
         GetComponent<MeshRenderer>().material = tafelSolved;
     }
 

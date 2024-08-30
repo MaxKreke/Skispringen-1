@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2441152554453358583}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Respawnpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2441152556524408888}
   - component: {fileID: 2441152556524408889}
   - component: {fileID: 2441152556524408893}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Killzone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

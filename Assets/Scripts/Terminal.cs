@@ -53,6 +53,7 @@ public class Terminal : MonoBehaviour
     {
         Terminal.ToggleCursor(false);
         Application.targetFrameRate = 120;
+        Physics.IgnoreLayerCollision(21,22);
     }
 
     public static void ToggleCursor(bool cursor)

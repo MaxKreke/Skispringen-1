@@ -31,8 +31,8 @@ TagManager:
   - MinusLayer
   - ArithmeticLayer
   - Tafel
-  - 
-  - 
+  - HazardLayer
+  - GoblinCubeLayer
   - 
   - 
   - 

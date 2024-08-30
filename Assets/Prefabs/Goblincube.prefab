@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 177905542618364786}
   - component: {fileID: 5177721527039578669}
   - component: {fileID: 7516414412601738122}
-  m_Layer: 0
+  m_Layer: 22
   m_Name: Goblincube
   m_TagString: Untagged
   m_Icon: {fileID: 0}

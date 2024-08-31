@@ -36,10 +36,9 @@ public class Terminal : MonoBehaviour
     private void SwitchCharacter(bool up)
     {
         if (MaxAvailableCharacter() == 0) return;
-
         characters[activeCharacter].GetComponent<PlayerControls>().Deactivate();
         if (up) activeCharacter++;
-        else activeCharacter+=3;
+        else activeCharacter+= MaxAvailableCharacter();
         activeCharacter %= (MaxAvailableCharacter()+1);
         characters[activeCharacter].GetComponent<PlayerControls>().enabled = true;
         characters[activeCharacter].GetComponent<PlayerControls>().Activate();

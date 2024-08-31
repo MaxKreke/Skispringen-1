@@ -179,7 +179,7 @@ public class PlayerControls : MonoBehaviour
 
     private void SummonLiebesHeart()
     {
-        liebesHerz.transform.rotation = Quaternion.identity;
+        liebesHerz.transform.rotation = Quaternion.Euler(0,ownCamera.transform.eulerAngles.y+90, 0);
         liebesHerz.transform.position = transform.GetChild(0).GetChild(0).position+ Camera.main.transform.forward*1.5f;
         liebesHerz.GetComponent<Rigidbody>().velocity = Vector3.zero;
         liebesHerz.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward*400);

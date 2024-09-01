@@ -129,3 +129,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: {fileID: 8300000, guid: df3418916e8a2c747b035d45d13d696f, type: 3}
   death: {fileID: 8300000, guid: 3698ea096e7bdb54e9de6d59a2023eae, type: 3}
+  kaboom: {fileID: 8300000, guid: 12b1d7fff007aa145954e2c00fcf9a56, type: 3}
+  explosion: {fileID: 8740458912010864286, guid: d449be79f9fc06a45b8b647947c53f0c, type: 3}

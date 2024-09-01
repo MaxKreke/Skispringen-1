@@ -6,6 +6,8 @@ public class GoblinCube : MonoBehaviour
 {
     public AudioClip life;
     public AudioClip death;
+    public AudioClip kaboom;
+    public GameObject explosion;
 
     void Start()
     {
@@ -17,14 +19,23 @@ public class GoblinCube : MonoBehaviour
         if (collision.gameObject.tag == "Destructible")
         {
             Destroy(collision.gameObject);
-            AudioSource.PlayClipAtPoint(death, transform.position, .5f);
-            Destroy(this.gameObject);
+            explode();
         }
         if (collision.gameObject.tag == "Feuer")
         {
-            AudioSource.PlayClipAtPoint(death, transform.position, .5f);
-            Destroy(this.gameObject);
+            explode();
         }
+    }
+
+    private void explode()
+    {
+        AudioSource.PlayClipAtPoint(death, transform.position, .5f);
+        AudioSource.PlayClipAtPoint(kaboom, transform.position, .5f);
+        Vector3 other = Camera.main.transform.position;
+        Vector3 direction = (other - transform.position).normalized;
+        Quaternion rotation = Quaternion.LookRotation(-direction);
+        GameObject splosion = Instantiate(explosion, transform.position, rotation);
+        Destroy(this.gameObject);
     }
 
 }

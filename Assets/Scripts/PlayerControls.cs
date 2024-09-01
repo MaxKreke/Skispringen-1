@@ -174,7 +174,17 @@ public class PlayerControls : MonoBehaviour
             if (characterID == 1) LaunchGoblin();
             if (characterID == 3) ShootMinus();
         }
-        if (Input.GetMouseButton(0) && characterID == 2) Piss();
+        if(characterID == 2)
+        {
+            if (Input.GetMouseButton(0)){
+                Piss();
+            }
+            else
+            {
+                GetComponent<AudioSource>().volume = 0;
+            }
+        }
+
     }
 
     private void SummonLiebesHeart()
@@ -198,6 +208,7 @@ public class PlayerControls : MonoBehaviour
     {
         ApplyForce(-Camera.main.transform.forward*5);
         transform.GetChild(0).GetChild(2).GetComponent<ParticleSystem>().Emit(1);
+        GetComponent<AudioSource>().volume = 1;
     }
 
     private void BasicDeathCheck()
@@ -231,6 +242,7 @@ public class PlayerControls : MonoBehaviour
         transform.GetChild(0).gameObject.SetActive(false);
         transform.GetChild(1).gameObject.SetActive(true);
         body.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezePositionX;
+        if(characterID == 2) GetComponent<AudioSource>().volume = 0;
         this.GetComponent<PlayerControls>().enabled = false;
     }
 
@@ -240,4 +252,5 @@ public class PlayerControls : MonoBehaviour
         transform.GetChild(1).gameObject.SetActive(false);
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
     }
+
 }

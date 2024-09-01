@@ -49,6 +49,7 @@ public class PlayerControls : MonoBehaviour
     {
         //Sphere is set so it only checks feet
         grounded = Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, GroundLayers);
+        if(characterID == 1) grounded = Physics.CheckSphere(transform.position + Vector3.down * .2f, .2f, GroundLayers);
         HerzCheck();
     }
 

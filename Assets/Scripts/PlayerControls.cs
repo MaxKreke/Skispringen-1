@@ -25,9 +25,12 @@ public class PlayerControls : MonoBehaviour
     private float speed = 1;
     private Terminal terminal;
 
+    public AudioClip boeing;
+
     // Start is called before the first frame update
     void Start()
     {
+        boeing = Resources.Load<AudioClip>("Sounds/boeing");
         body = GetComponent<Rigidbody>();
         terminal = GameObject.Find("Terminal").GetComponent<Terminal>();
     }
@@ -55,7 +58,11 @@ public class PlayerControls : MonoBehaviour
 
     private void HerzCheck()
     {
-        if (Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, HerzLayer))body.velocity = Vector3.ProjectOnPlane(body.velocity, Vector3.up) + Vector3.up * jumpforce * 1.8f;
+        if (Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, HerzLayer))
+        {
+            body.velocity = Vector3.ProjectOnPlane(body.velocity, Vector3.up) + Vector3.up * jumpforce * 1.8f;
+            AudioSource.PlayClipAtPoint(boeing, transform.position, 1);
+        }
     }
 
     private void JumpAndGravity()

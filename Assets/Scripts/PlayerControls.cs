@@ -214,7 +214,7 @@ public class PlayerControls : MonoBehaviour
 
     private void Piss()
     {
-        ApplyForce(-Camera.main.transform.forward*5);
+        ApplyForce(-Camera.main.transform.forward*7.5f);
         transform.GetChild(0).GetChild(2).GetComponent<ParticleSystem>().Emit(1);
         GetComponent<AudioSource>().volume = 1;
     }

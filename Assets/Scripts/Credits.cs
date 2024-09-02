@@ -7,7 +7,6 @@ public class Credits : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Application.Quit();
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
@@ -16,6 +15,6 @@ public class Credits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Application.Quit();
     }
 }

@@ -51,7 +51,7 @@ public class Terminal : MonoBehaviour
     void Start()
     {
         Terminal.ToggleCursor(false);
-        Application.targetFrameRate = 120;
+        Application.targetFrameRate = 90;
         Physics.IgnoreLayerCollision(21,22);
     }
 

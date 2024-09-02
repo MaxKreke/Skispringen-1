@@ -9,6 +9,7 @@ TagManager:
   - Button
   - Minus
   - Plus
+  - Herz
   layers:
   - Default
   - TransparentFX

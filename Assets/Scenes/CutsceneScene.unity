@@ -371,11 +371,11 @@ MonoBehaviour:
   - Level 4
   - Credits
   clips:
-  - {fileID: 32900000, guid: 6ed32d5cf46ba574d8ff38bab6532aa6, type: 3}
-  - {fileID: 32900000, guid: f643e322d33bd6c47928f7237beef67e, type: 3}
-  - {fileID: 32900000, guid: 309de2d4d87be5145a27c32cd1905819, type: 3}
-  - {fileID: 32900000, guid: e8c06c49bd7ff0644939897582cb06d7, type: 3}
-  - {fileID: 32900000, guid: 5aac517a5df6afb4aaf9dcac2037773f, type: 3}
+  - {fileID: 32900000, guid: c6ab41de142f5d645ac88f8d17f8bb29, type: 3}
+  - {fileID: 32900000, guid: c6ab41de142f5d645ac88f8d17f8bb29, type: 3}
+  - {fileID: 32900000, guid: c6ab41de142f5d645ac88f8d17f8bb29, type: 3}
+  - {fileID: 32900000, guid: c6ab41de142f5d645ac88f8d17f8bb29, type: 3}
+  - {fileID: 32900000, guid: c6ab41de142f5d645ac88f8d17f8bb29, type: 3}
 --- !u!1 &1274560955
 GameObject:
   m_ObjectHideFlags: 0

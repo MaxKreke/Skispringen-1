@@ -61,7 +61,7 @@ public class PlayerControls : MonoBehaviour
         if (Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, HerzLayer))
         {
             body.velocity = Vector3.ProjectOnPlane(body.velocity, Vector3.up) + Vector3.up * jumpforce * 1.8f;
-            AudioSource.PlayClipAtPoint(boeing, transform.position, 1);
+            AudioSource.PlayClipAtPoint(boeing, transform.position, .5f);
         }
     }
 

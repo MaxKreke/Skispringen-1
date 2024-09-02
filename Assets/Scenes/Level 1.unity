@@ -12040,6 +12040,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1229661633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 99.49999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917895373047080388, guid: 12979b99c70c757449cc194a92945428, type: 3}
+      propertyPath: m_Name
+      value: Tisch
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12979b99c70c757449cc194a92945428, type: 3}
 --- !u!1 &1314656836
 GameObject:
   m_ObjectHideFlags: 0
@@ -14464,6 +14521,7 @@ MonoBehaviour:
   liebesHerz: {fileID: 485988451}
   goblinCube: {fileID: 177905542618364789, guid: 5ced761644ee9b84f8e074fbb33ddb87, type: 3}
   minus: {fileID: 3420672161557089627, guid: 2587e462aa5cb774794bbb5072e67f9a, type: 3}
+  boeing: {fileID: 0}
 --- !u!54 &1458733779
 Rigidbody:
   m_ObjectHideFlags: 0

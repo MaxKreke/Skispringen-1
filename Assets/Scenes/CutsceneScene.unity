@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 1099041914}
   - component: {fileID: 1099041913}
   - component: {fileID: 1099041916}
+  - component: {fileID: 1099041917}
   m_Layer: 0
   m_Name: VideoCube
   m_TagString: Untagged
@@ -323,7 +324,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099041911}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 6ed32d5cf46ba574d8ff38bab6532aa6, type: 3}
+  m_VideoClip: {fileID: 0}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -350,6 +351,31 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &1099041917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099041911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933c364c26f7832438b4e7f471381265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vp: {fileID: 1099041916}
+  scenes:
+  - Level 1
+  - Level 2
+  - Level 3
+  - Level 4
+  - Credits
+  clips:
+  - {fileID: 32900000, guid: 6ed32d5cf46ba574d8ff38bab6532aa6, type: 3}
+  - {fileID: 32900000, guid: f643e322d33bd6c47928f7237beef67e, type: 3}
+  - {fileID: 32900000, guid: 309de2d4d87be5145a27c32cd1905819, type: 3}
+  - {fileID: 32900000, guid: e8c06c49bd7ff0644939897582cb06d7, type: 3}
+  - {fileID: 32900000, guid: 5aac517a5df6afb4aaf9dcac2037773f, type: 3}
 --- !u!1 &1274560955
 GameObject:
   m_ObjectHideFlags: 0

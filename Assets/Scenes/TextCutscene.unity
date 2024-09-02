@@ -1,0 +1,1236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &147267693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147267694}
+  - component: {fileID: 147267696}
+  - component: {fileID: 147267695}
+  - component: {fileID: 147267697}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &147267694
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147267693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116751553}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &147267695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147267693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &147267696
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147267693}
+  m_CullTransparentMesh: 1
+--- !u!114 &147267697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147267693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d7ec1b3723571b4a83ff729bf51bb06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text:
+  - "Opa\u2019s Narration: Diese Welt hat ist ein Abgrund. Geplagt von zahllosen
+    Grausamkeiten. Die Eliten saugen den Wohlstand aus der Unterschicht wie Vampire.
+    Wie eine Prostituierte, die f\xFCr 40 Mark [zensiert] um ihren vaterlosen Kindern
+    die Windeln zu bezahlen. Und die Liebe? Die Liebe liegt leblos in der Gosse,
+    wie ebenjene Prostituierte nachdem ihr Klient sich geweigert hat, die 40 Mark
+    zu bezahlen. Wer w\xFCrde probieren solch eine Leiche wiederzubeleben? Es br\xE4uchte
+    einen Narren. Nun, vielleicht bin ich ein Narr. Denn ich weigere mich, die Liebe
+    aufzugeben. Mit meinem Orb of Love kann ich das B\xF6se bezwingen und zum rechten
+    Pfad bekehren. Doch um die ganze Welt zu bekehren, reicht meine Kraft allein
+    nicht aus. Es existieren vier weitere Orbs: Goblin, Piss, Minus und Criminal
+    Energy, welche mir Kraft Spenden k\xF6nnen. Diese Orbs befinden sich in den H\xE4nden
+    einer niedertr\xE4chtigen Gruppe, unter der Leitung einer mysteri\xF6sen Frau
+    namens \u201COma\u201D, an einem Ort den Mann den kriminellen Untergrund nennt...
+    [fade out] [fade in] vor dem kriminellen Untergrund, man sieht einen Yakuza vor
+    dem Zugang stehen. Opa\u2019s Narration: Selbst ein Krieger der Liebe muss gelegentlich
+    Allianzen mit den M\xE4chten des B\xF6sen eingehen. Dieser Mann ist ein Mitglied
+    der Yakuza, und mein Zugang in den kriminellen Untergrund. Yakuza: Ban gohan
+    mo tabemashita ka. (Hast du das Geld mitgebrach) Opa: 5 Mark in Pfennigen, wie
+    vereinbart. Opa pr\xE4sentiert einen Sack mit einem Dollar Symbol. Der Yakuza
+    nimmt das Geld.s Yakuza: Kutsu no naka de, ashi ga itai desu. (Wir haben nie
+    miteinander gesprochen) Opa: Selbstverst\xE4ndlich. Yakuza: Toire ni ikitai,
+    matana. (Ich gehe kurz Bier holen. Die T\xFCr ist w\xE4hrenddessen unbewacht.)
+    [fade to black] Opa\u2019s Narration: Und so beginnt mein Abstieg in den kriminellen
+    Untergrund."
+  - "Erz\xE4hlung: Es ist eine allgemein anerkannte Wahrheit, dass ein Goblin im
+    Besitz eines Ei f\xE4hig ist dieses als Projektil zu nutzen. Einst geworfen,
+    schl\xFCpft der junge Goblin noch im Flug und ist kampfbereit, bevor er den Boden
+    ber\xFChrt. Trotz ihrer rapiden Fortpflanzung, lebt der gemeine Goblin jedoch
+    versteckt vor der Gesellschaft, so dass die meisten Personen in ihrem Leben keinen
+    Goblin zu Gesicht bekommen. Opa jedoch, war nun kurz davor, eine Begegnung mit
+    einer ebensolchen Kreatur zu machen. Goblin: Hast du dich verlaufen? Opa: Ich
+    suche nach den Orbs der Macht. Goblin: Ich habe ein Orb. Opa: Kann ich es sehen?
+    Goblin: Mmmmmmh... nein. Opa: Ich habe auch ein Orb. Wenn ich es dir zeige, kann
+    ich dann dein Orb sehen? Goblin: Mmmmmmh... okay. Opa holt sein Orb raus Opa:
+    Und jetzt du. Goblin: Nein! Ich habe dich ausgetrickst, hahahaha. Und jetzt stirb!
+    Oder \xFCberwinde mein Level."
+  - 
+  - "Goblin: Neeeeeein! Keine Liebe, Goblins sind aromantisch. Opa: Aber es gibt
+    noch andere Arten von Liebe, als nur romantische Liebe. Goblin: Neeeeein! Keine
+    nuancierten Argumente, Goblins hassen Nuancen. Aaaaaah! Liebesexplosion Goblin:
+    Okay, wir sind Freunde. Du bist Patenonkel von Goblin-Nachwuchs #31 bis #120.
+    Opa: Ein Triumph f\xFCr die Liebe.  Erz\xE4hlung: Und so zeigte Opa einem Goblin
+    die platonische Liebe. Und zu zweit, wenn man ihre dreistellige Anzahl an Kindern
+    ignoriert, drangen sie tiefer vor, in den kriminellen Untergrund."
+  - "Die olfaktorische Wahrhnehmung, auch Geruchssinn genannt, geh\xF6rt zu den ausgepr\xE4gtesten
+    Sinnen des Menschen. Noch bevor seine Augen etwas ersp\xE4hen konnten, oder seine
+    Ohren auch nur den leisesten Hinweis auf die Anwesenheit seines Gegners h\xF6ren
+    konnten, wusste Opa welches Orb ihm als n\xE4chstes begegnen w\xFCrde. Mit jedem
+    Schritt, der Opa in die tiefen des kriminellen Untergrunds f\xFChrte, wurde der
+    unverkennbare Geruch von Urin penetranter bis sich endlich der Nutzer des Orbs
+    offenbarte. pissboy erscheint hinter Opa und Goblin Pissboy: Halt! Opa und Goblin
+    drehen sich um Opa und Goblin: Nani?! Pissboy: Du bist bereits zu tief in den
+    kriminellen Untergrund vorgesto\xDFen. Doch ich werde deinem kleinen Ausflug
+    ein Ende bereiten. Ich, Pissboy, Nutzer des Orb of Piss. Mit meinem Orb of Piss
+    verhundertfacht sich die Kapazit\xE4t meiner Blase, so dass ich meine Feinde
+    in einer gelben Flut davon sp\xFClen kann. Des weiteren kann ich meinen Strahl
+    aus konzentriertem Urin wie ein Jetpack nutzen und damit fliegen. Gesteht es
+    euch ein, weder das Orb of Love, noch das Orb of Goblin k\xF6nnen mithalten.
+    Wenn ihr jetzt anfangt zu rennen schafft es vielleicht einer von euch lebendig
+    zur\xFCck an die Oberfl\xE4che. Opa: Du liegst falsch. Wir sind zu zweit, und
+    du nur allein. Und wir haben die Kraft der Liebe und der Goblins und einen rein
+    platonischen Bund, der st\xE4rker ist als dein Urin. Pissboy: Also suchst du
+    den Tod eines Kriegers? Den kann ich dir geben; Wenn du meinen Level \xFCberwinden
+    kannst. fliegt davon auf einem Strahl aus Urin"
+  - 
+  - "Goblin: Ah, Opas Herzen haben Pissboy getroffen. Aber Pissboy scheint die Liebe
+    nicht zu sp\xFCren, er k\xE4mpft weiter. Pissboy: Ich habe es euch gesagt, mein
+    Orb of Piss ist euren armseligen Orbs weit \xFCberlegen. Kurz bevor die Herzen
+    mich ber\xFChrt haben, habe ich mit einem pr\xE4zisen Schuss die Herzen mit einer
+    sch\xFCtzenden Schicht an Urin bedeckt. Das einzige was mich ber\xFChrt hat...War
+    Urin! Opa: Bist du dir da so sicher? Pissboy: Huh? Opa: Du warst so von der \xDCberlegenheit
+    deines Orbs \xFCberzeug, dass du dir eine riesige Bl\xF6\xDFe gegeben hast indem
+    du mich zu nah rangelassen hast. Du kannst vielleicht meine Herzen mit Urin bedecken.
+    Aber was tust du, gegen eine Liebesexplosion? Was du als n\xE4chstes sagen wirst,
+    ist \u201COh nein, ich sp\xFCre die Liebe.\u201D Liebesexplosion Pissboy: Oh
+    nein, ich sp\xFCre die Liebe. Opa: Untersch\xE4tze niemals, die Kraft der Liebe.
+    Pissboy: Ich verstehe jetzt, die Macht des Orbs hatte mich konvertiert. Lass
+    mich es wieder gut machen, indem ich euch beide den Rest des Weges begleite.
+    Opa: Nat\xFCrlich, wilkommen im Team.  Erz\xE4hlung: Und so, mit einem weiteren
+    Kameraden in seiner Gesellschaft, machte Opa sich auf den Weg. Immer tiefer in
+    den kriminellen Untergrund."
+  - "Die Gruppe betritt einen neuen Abschnitt, eine gro\xDFe H\xF6hle mit Wasserfall.
+    Man sieht die Gruppe von hinten. In der Ferne kniet ein Mann vor dem Orb of Minus. 
+    Goblin: Hey, seht mal, es ist Steve. Unser Untergrund-Werkstudent.  Opa: Er hat
+    den Orb of Minus!  Pissboy: Verpiss dich von dem Orb, Steve! Daf\xFCr hast du
+    noch nicht die Criminal Skills.  Steve: Nein! Niemals! Schaut wie sch\xF6n er
+    gl\xE4nzt. Er ist ganz mein! (massive evil laughter) GRAAAH!!  Eine Macht durchstr\xF6mt
+    Steve. Er hat starke Schmerzen, scheint die Macht fast nicht handlen zu k\xF6nnen,
+    aber dann verwandelt er sich in Minusmensch.  Minusmensch: MUAHARHARHAR! Steve?
+    Das war mein alter Name. Ich bin jetzt binomisch, ich habe einen zweiten Namen:
+    Ich bin nun Minusmensch! Und ich werde mit der Macht von Subtraktion und Addition
+    alle zu Tode langweilen! MMWHAHAHAHA!  Goblin: Wieso Addition?  Pissboy: Minus
+    und Minus ergibt Plus.  Goblin: Achso.  Minusmensch: Tausende Leichen von Mathesch\xFClern
+    werden meinen Weg pflastern! Opa: Wir machen dir einen Strich durch die Rechnung! 
+    Minusmensch: Ach ja? Versucht doch mich aufzuhalten! Orb of Minus, kalkuliere! 
+    Minusmensch reckt den Orb of Minus in die H\xF6he und der gesamte Ort verwandelt
+    sich in ein Koordinatennetz.  Minusmensch: H\xC4H\xC4! Tja, wie hoch war wohl
+    die Wahrscheinlichkeit, dass ihr mit diesem Bruch gerechnet habt? Vektoren, auf
+    auf!  Minusmensch verschie\xDFt Vektoren, mit denen er irgendwohin in den Raum
+    verschwindet. (Vielleicht den Wasserfall hoch)  Opa: Hinterher! "
+  - 
+  - "Minusmensch (schreit gemuffled aus Sack heraus wie drachenlord ): IHR WERDET
+    MICH NIEMALS BESIEGEEEEN.    Opa: Besiegen werden wir dich nicht. Aber Konvertieren
+    schon. Wir werden dich konvertieren wie eine WEBP Datei. Die nerven. Obwohl moment,
+    sind wir nicht in den 70ern oder so? Was f\xFCr Dateiformate gab es da?.. Ach
+    egal, los geht\u2019s.   Opa zerrt Minusmensch aus dem Sack   Minusmensch: Es
+    gibt keine Konversion, nur Addition und Subtraktion auf Ewig. Ihr werdet alle
+    abgezogen und dem Reich der Schatten hinzugez\xE4hlt. HAHAHA.   Opa: Du kannst
+    abziehen so viel du willst. Doch Minus mal Minus ergibt Plus. \xDCber diese Worte,
+    deine Worte habe ich lange nachgedacht Steve\u2026 Multiple Addition ergibt Multiplikation.
+    Schonmal dr\xFCber nachgedacht. Alles l\xE4uft darauf hinaus. Dich Mal zu nehmen.  
+    Pissboy (fl\xFCsternd zu Goblin): Ich glaube wir sollten uns verpissen. Das kriegt
+    Opa alleine hin.   Goblin: Meinst du?   Pissboy: Ich muss auf jeden Fall Mal.
+    Und das ohne nehmen.   Goblin und Pissboy verschwinden. Opa und Minusmensch verbleiben
+    alleine im Raum.   Der Raum wird Dunkel, man h\xF6rt verst\xF6rende Sounds. Das
+    Licht geht wieder an. Opa und Mathemann sind auf dem Bett.   Opa: Mit der Macht
+    des Orb of Love erl\xF6se ich dich von der Existenz im Graubereich. Trage das
+    Mal der Liebe tief in dir. Schlie\xDFe dich uns an. Nutze die Zeichen f\xFCr
+    das Gute.   Mathemann: Ich sp\xFCre es. Tief in mir. Ich bin weder Steve noch
+    Minusmensch. Bin in mir selbst gel\xF6st.  Goblin und Pissboy kommen in den Raum.   
+    Pissboy: Lasst uns als Gruppe zusammenkommen. Oh warte\u2026   Goblin: Steve,
+    ist alles okay bei dir?  "
+  - "Mathemann: \"Hallo, Freunde! Ich bin Mathemann, und durch die unendliche Kraft
+    der Liebe habe ich errechnet, dass ich... nun ja, Mathemann bin!\" Goblin: \"\xC4hm...
+    Was?\" Mathemann: \"Genau! Seht ihr, ich habe die Gleichung der Liebe aufgestellt.
+    Das sieht so aus: L plus O geteilt durch V, multipliziert mit E... ergibt Liebe!
+    Und Liebe, meine Freunde, ist der Beweis daf\xFCr, dass ich der einzig wahre
+    Mathemann bin!\" Pissboy: \"Aber... das ergibt doch keinen Sinn...\" Mathemann:
+    \"Genau! Aber wartet, es geht noch weiter. Durch die heilige Kraft des Orb of
+    Minus kann ich das Plus bilden und so jede Gleichung l\xF6sen! Ein Beispiel?
+    2 plus 2... minus... 2... ist... \xE4hm... 2! Seht ihr, wie einfach das ist?\"
+    Pissboy: \"Das... ist tats\xE4chlich korrekt. Aber was hat das mit uns zu tun?\"
+    Mathemann: \"Ah, gro\xDFartige Frage! Im Auftrag des Guten m\xF6chte ich eurer
+    Gruppe beitreten! Gemeinsam k\xF6nnen wir jede mathematische Herausforderung
+    l\xF6sen! Oder vielleicht einfach nur Mittagessen bestellen. Ganz egal! Mathemann
+    ist bereit!\" Pissboy: \"Aber... warum sollten wir jemanden wie dich brauchen?
+    Wir ben\xF6tigen nur den Orb of Minus\" Mathemann: \"Weil, liebe Freunde, Mathemann
+    nicht nur mit Zahlen k\xE4mpft, sondern auch mit dem Herzen! Und die Gleichung
+    meiner Liebe zu euch lautet: Mathemann plus Freunde gleich... UNENDLICHE MACHT!\"
+    Pissboy: \"Wir... wir sind uns nicht sicher, was wir davon halten sollen.\" Mathemann:
+    \"Keine Sorge! Mathemann wird alles durchrechnen! Und wenn die Liebe stimmt,
+    bin ich Teil der Gruppe. Sonst bleibt nur das Ergebnis \xFCbrig. Und das Ergebnis
+    ist immer... MATHEMANN!\" Goblin: \"Oh je...\" Mathemann: \"H\xF6rt die Weisheit
+    der Zahlen! Wir sind zusammen ein komplettes Set! Und niemand, niemand kann uns
+    unterteilen\u2026  au\xDFer durch null. Denn das ist wirklich ein Problem f\xFCr
+    eine andere Folge.\" Goblin: Welche Folge\u2026 hast du jetzt die dritte Wand
+    durchbrochen oder meinst du das im Sinne einer Zahlenfolge, also so mathematisch
+    dass man mehrere\u2026 Opa h\xE4lt Goblin Gef\xFChlvoll die Hand vor den Mund.
+    Opa: Shhh\u2026 shhhh.  "
+  - "Es war einmal, in einem Land vor unserer Zeit. Dort lebte ein junges Wesen,
+    eingesperrt in den Tiefen. Ihr K\xF6rper ein Gef\xE4ngnis. Ihr Geist sei frei
+    so sagte man ihr, doch ihre Seele verhangen in gar furchtbaren Gedanken. Von
+    Kind an allein. Aufgezogen von Pinguinen in dunkler Tundra. Schnattern und schnattern,
+    doch keine W\xE4rme. Daf\xFCr war sie zu gro\xDF, die Wesen der Obhut zu klein.
+    Verzweifelt. Liebe wurde mit Steinen gezeigt. Hart und kalt und doch ebneten
+    sie ihr den Weg. So zog sie fort, verschrieb sich den dunklen K\xFCnsten, das
+    Wispern der B\xE4ume, nur Wind und doch f\xFCr sie trautes Geleit. Fast erfroren
+    an dem Leid. Ging sie in de gro\xDFe Stadt, welch wunder sie dort erwarteten
+    \u2013 im Au\xDFen schimmernd, leuchtend, belebend \u2013 doch das innere verrottet,
+    erk\xE4ltet, erfroren. Keine B\xE4ume, nur Beton, doch da war wieder das Wispern.
+    Steine nur gr\xF6\xDFer. In ihnen lebten Menschen und so auch sie, wurde \xE4lter.
+    Doch mit ihrem K\xF6rper wuchs auch die Verzweiflung. Riss sie entzwei mit Jahr
+    und Jahr mehr. Trieb sie in die H\xE4nde von Schuften. Gar furchtbare Menschen
+    und Wesen, vernetzt in dunklen Machenschaften. Das Fl\xFCstern wurde zum Beben,
+    zum Befehl und schlie\xDFlich zu ihrer einzigen Stimme. Sie schrie und fluchte,
+    schlug und peitschte, drohte, verfolgte, zerst\xF6rte. Und so wurde ihr Anerkennung
+    zueigen. Die Unterweltler zollten ihr pl\xF6tzlich Respekt. Die Stra\xDFenschluchten
+    gef\xFCllt vom Echo ihres Wesens. Sie wurde zur Spinne, gefangen im Netz. Die
+    Macht die sie durchfloss, sie brauchte ein Werkzeug. Der Orb of Criminal Energy,
+    er schien die einzige L\xF6sung. Er war das Einzige, was ihr Trost gab. Ihr W\xE4rme
+    spendete, das erste Mal im Leben hatte sie nicht mehr dieses Jucken, diese Spannung,
+    diesen Schmerz, nur W\xE4rme und Geborgenheit.  Das durften sie ihr nicht nehmen.
+    Die Gruppe junger Recken, die Katze, das gr\xFCne Ei, der Mathefreak und der
+    unversch\xE4mt gutaussehende O.P. mit der Elvis-Tolle\u2026 Sie mussten gestoppt
+    werden. Bevor sie ihr das Einzige nahmen, was ihr Resonanz gab in dieser dunklen
+    Welt. Und so ergab sie sich der Macht, kehrte ihr inneres nach Au\xDFen, zerfloss
+    da sie der Kraft nicht Herr wurde. Ihr Blut stockte, einzig flie\xDFend die Criminal
+    Energy, die Haut wurde Asche, nur der Orb noch gl\xE4nzend. Die Macht des M\xE4dchens
+    des Untergrunds gebrochen, zerschossen, in die Welt gestreut. All die Trauer,
+    all die Wut, all die Verzweiflung und Einsamkeit gebannt in Materie, verwebt
+    in Komplexen. So erblickte das b\xF6se Level das Licht der Welt, w\xE4hrend das
+    M\xE4dchen die Augen schloss und von dieser Welt ging. Nur Schmerz war ihr geblieben.
+    Und ja, zur gleichen Zeit starben auch die Pinguine. Ein letztes hustendes Schnattern,
+    ein letzter Fl\xFCgelschlag, der verzweifelte Versuch zu fliegen, doch das \xD6l
+    verklebte\u2026 die Augen, die Federn, alles versiegelt, keine Hoffnung, nur
+    Schmerz. Oma ist jetzt durch das entstandene Level durch irgendeine k\xFCnstliche 
+    Barriere von der Gruppe getrennt, wie der Glassarkophag bei Schneewittchen. Das
+    wird auch von der M\xE4rchenstimme so erz\xE4hlt. Die Gruppe kann Oma und den
+    Orb, der bei ihr liegt, sehen, muss sich aber einen Weg au\xDFen herum bahnen.  "
+  - 
+  - "Es war schon wieder einmal in einem Land vor unserer Zeit, die kriminelle Dame,
+    Opa und der Orb und der ganze Rest. So begab es sich, dass Opa auch den letzten
+    Orb erlangte. Sie Sinne befl\xFCgelt von \xFCberweltlicher Vision. Die Sicht
+    nicht mehr getr\xFCbt vom Rauch der goblinischen Schergenreste, die Nase frei
+    von Ammoniak, der Kopf gel\xF6st von Formeln und Axiomen. Der Auftrag w\xFCrde
+    erf\xFCllt werden. Sein Entschluss stand fest. Jetzt wo die olle Schabracke tot
+    ist, g\xF6nn ich mir den Orb und dann gibt\u2019s Weltfrieden und Koks und Nutten
+    und \xE4hm nat\xFCrlich Frieden, also f\xFCr alle, es geht Opa ja nicht um sich,
+    nur um die tolle Welt, die muss in Frieden sein, weil dann ist alles gut. Und
+    so hob ihr die Orbs in die H\xF6he, feierlich, zum Geleit der neuen Weltordnung,
+    des Wohlstands, des Einklangs, der \u2026 Moment, Moment!!! Das ist ja garkeine
+    Olle Schabracke, sondern ne hammersweete Perle. Ne astreine knorke Alte, echt
+    dufte. So kalt gefiel sie Opa gar nicht. Er fasste sich ein Herz. Was ist schon
+    die Welt gegen eine holde Maid. So soll sie leben! So soll sie wieder neu erbl\xFChen
+    und ihn begleiten. Auf alle Tage, bis in den Tod, bis ins Nachleben und den Tod
+    des Nachlebens und die ganzen Paralleluniversen und die Orthogonalen Multiversen
+    und die anderen Fersen, mit denen er sein Leben mit ihr beschreiten w\xFCrde.
+    Bis ihre Kinder und Kindeskinder und Kindeskindeskinder alle \xFCberlebt w\xE4ren,
+    schon jetzt, tief im Herzen, war sie f\xFCr ihn die eine Oma. Er dachte sich
+    in eine Zeit in der sie Oma w\xE4re, und dann entschied er, wozu warten, wieso
+    nicht gleich damit anfangen. Der Orb of Love und der Orb of Criminal Energy sprachen
+    beide gleicherma\xDFen aus seiner Seele. Und so warf er die Zweifel hinfort,
+    dir Orbs s\xE4mtlich zusammen und mit vereinter Kraft nutze er sie dazu Oma wieder
+    ins Leben zu holen. Und so kam etwas ins Leben zur\xFCck... "
+  - "\"Haben Sie jemals gedacht: 'Ich liebe Fernsehzeitschriften wie die H\xF6rzu?'
+    Sind Sie verr\xFCckt nach Zeitungskiosken? Haben Sie eine Schw\xE4che f\xFCr
+    Br\xFCcken? Und wer kann die Faszination f\xFCr Beschw\xF6rungen mit Orbs und
+    Enkelkindern leugnen?\" Beschwingte, \xFCbertriebene Verkaufsshow-Musik setzt
+    ein. \"Dann haben wir das ultimative Produkt f\xFCr Sie: OPA! Der einzige Mensch,
+    der all Ihre liebsten Dinge vereint. \"Stellen Sie sich vor: Opa und Oma, entflohen
+    aus dem dunklen Untergrund! Mit ihrer Criminal Energy, geformt aus einer Vergangenheit
+    als Untergrundbosse, steht ihnen nichts mehr im Wege!\" \"Die Criminal Energy
+    von Oma f\xE4rbt auf Opa ab... und wie es sich f\xFCr den Opa of Love geh\xF6rt,
+    zeigt er Oma viel Liebe. So viel Liebe, dass irgendwann der Vater des zuk\xFCnftigen
+    Enkels gezeugt wird! Ein Kind, ein Enkel \u2013 damit werden Opa und Oma ihrem
+    Namen mehr als gerecht!\" Erz\xE4hler: \"Doch Opa hat noch gr\xF6\xDFere Pl\xE4ne:
+    Er will noch einmal alle f\xFCnf Orbs besitzen und die ultimative Macht erreichen!
+    Diesmal jedoch hat er einen Plan: Keine unn\xF6tigen Risiken mehr! Er wei\xDF,
+    dass er Vorkehrungen treffen muss, um beim n\xE4chsten Mal keinen Schaden zu
+    erleiden \u2013 aber wie wird er es tun? Wird er Skispringen 2 \xFCberleben oder
+    erneut ein Risiko eingehen?\" Erz\xE4hler: \"OPA ist bereit f\xFCr das gr\xF6\xDFte
+    Abenteuer seines Lebens, und er wei\xDF schon genau, wie er es anstellt! Alles,
+    was er braucht, ist ein Enkel, ein H\xF6rzu-Fernsehzeitschriftenkiosk und...
+    ein genialer Vorwand!\" Erz\xE4hler: \"Greifen Sie JETZT zu und sichern Sie sich
+    OPA f\xFCr Ihr Zuhause! Aber aufgepasst \u2013 die Zeit l\xE4uft! OPA ist einzigartig
+    und wird schnell vergriffen sein!\" \"Rufen Sie JETZT an und sichern Sie sich
+    OPA f\xFCr Ihr Zuhause! Bestellen Sie in den n\xE4chsten 10 Minuten und erhalten
+    Sie ein GRATIS H\xF6rzu-Fernsehzeitschriften-Abo dazu!\" Stimme aus dem Off:
+    \"Angebot gilt nur solange der Vorrat reicht. Keine Garantie f\xFCr tats\xE4chliche
+    magische F\xE4higkeiten. Verwendung des Orbs auf eigene Gefahr.\" "
+  - 
+--- !u!1 &211587194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211587195}
+  - component: {fileID: 211587198}
+  - component: {fileID: 211587197}
+  - component: {fileID: 211587196}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &211587195
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211587194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 465}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1188909470}
+  m_Father: {fileID: 1116751553}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -150, y: 75}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &211587196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211587194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 211587197}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 313293695}
+        m_TargetAssemblyTypeName: Continue, Assembly-CSharp
+        m_MethodName: Skip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+--- !u!114 &211587197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211587194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &211587198
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211587194}
+  m_CullTransparentMesh: 1
+--- !u!1 &313293691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 313293694}
+  - component: {fileID: 313293693}
+  - component: {fileID: 313293692}
+  - component: {fileID: 313293695}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &313293692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313293691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &313293693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313293691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &313293694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313293691}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &313293695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313293691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52dae5713dfe2fc458ececfc467c4928, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenes:
+  - TextCutscene
+  - TextCutscene
+  - Level 1
+  - TextCutscene
+  - TextCutscene
+  - Level 2
+  - TextCutscene
+  - TextCutscene
+  - Level 3
+  - TextCutscene
+  - TextCutscene
+  - TextCutscene
+  - Level 4
+  - TextCutscene
+  - TextCutscene
+  - Credits
+--- !u!1 &504603494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504603497}
+  - component: {fileID: 504603496}
+  - component: {fileID: 504603495}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &504603495
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504603494}
+  m_Enabled: 1
+--- !u!20 &504603496
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504603494}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &504603497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504603494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &665503147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 665503149}
+  - component: {fileID: 665503148}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &665503148
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665503147}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &665503149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665503147}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1116751549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1116751553}
+  - component: {fileID: 1116751552}
+  - component: {fileID: 1116751551}
+  - component: {fileID: 1116751550}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1116751550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116751549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1116751551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116751549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1116751552
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116751549}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1116751553
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116751549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1190033133}
+  - {fileID: 147267694}
+  - {fileID: 211587195}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1188909469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1188909470}
+  - component: {fileID: 1188909472}
+  - component: {fileID: 1188909471}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1188909470
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188909469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 211587195}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1188909471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188909469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Continue
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1188909472
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188909469}
+  m_CullTransparentMesh: 1
+--- !u!1 &1190033132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1190033133}
+  - component: {fileID: 1190033135}
+  - component: {fileID: 1190033134}
+  m_Layer: 5
+  m_Name: Credits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1190033133
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190033132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116751553}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1190033134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190033132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1190033135
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190033132}
+  m_CullTransparentMesh: 1

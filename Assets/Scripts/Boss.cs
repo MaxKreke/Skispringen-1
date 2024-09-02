@@ -21,7 +21,7 @@ public class Boss : MonoBehaviour
     void FinishScene()
     {
         LevelTracker.level++;
-        SceneManager.LoadScene("CutsceneScene");
+        SceneManager.LoadScene("TextCutscene");
     }
 
 }

@@ -12,6 +12,7 @@ public class PlayerControls : MonoBehaviour
 
     public LayerMask GroundLayers;
     public LayerMask HerzLayer;
+    public LayerMask GigaHerzLayer;
     private Rigidbody body;
     public Camera ownCamera;
 
@@ -61,6 +62,11 @@ public class PlayerControls : MonoBehaviour
         if (Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, HerzLayer))
         {
             body.velocity = Vector3.ProjectOnPlane(body.velocity, Vector3.up) + Vector3.up * jumpforce * 1.8f;
+            AudioSource.PlayClipAtPoint(boeing, transform.position, .5f);
+        }
+        if (Physics.CheckSphere(transform.position + Vector3.down * .2f, .4f, GigaHerzLayer))
+        {
+            body.velocity = Vector3.ProjectOnPlane(body.velocity, Vector3.up) + Vector3.up * jumpforce * 5f;
             AudioSource.PlayClipAtPoint(boeing, transform.position, .5f);
         }
     }
@@ -115,8 +121,8 @@ public class PlayerControls : MonoBehaviour
         if (force != Vector3.zero)
         {
             body.velocity = Vector3.ClampMagnitude(rotatedForce.normalized * (currentSpeed + relativeSpeed) / 2, 150) + body.velocity.y * Vector3.up;
-            if (!air) ApplyForce(rotatedForce * 8);
-            else ApplyForce(rotatedForce * 2f);
+            if (!air) ApplyForce(rotatedForce * 12f);
+            else ApplyForce(rotatedForce * 3f);
         }
     }
 
@@ -214,7 +220,7 @@ public class PlayerControls : MonoBehaviour
 
     private void Piss()
     {
-        ApplyForce(-Camera.main.transform.forward*7.5f);
+        ApplyForce(-Camera.main.transform.forward*12f);
         transform.GetChild(0).GetChild(2).GetComponent<ParticleSystem>().Emit(1);
         GetComponent<AudioSource>().volume = 1;
     }

@@ -29,6 +29,7 @@ public class Next : MonoBehaviour
 
     public void Skip()
     {
+        LevelTracker.level++;
         SceneManager.LoadScene(scenes[LevelTracker.level]);
     }
 }

@@ -182,7 +182,30 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "Opa\u2019s Narration: Diese Welt hat ist ein Abgrund. Geplagt von zahllosen
+    Grausamkeiten. Die Eliten saugen den Wohlstand aus der Unterschicht wie Vampire.
+    Wie eine Prostituierte, die f\xFCr 40 Mark [zensiert] um ihren vaterlosen Kindern
+    die Windeln zu bezahlen.\\n Und die Liebe? Die Liebe liegt leblos in der Gosse,
+    wie ebenjene Prostituierte nachdem ihr Klient sich geweigert hat, die 40 Mark
+    zu bezahlen. Wer w\xFCrde probieren solch eine Leiche wiederzubeleben? Es br\xE4uchte
+    einen Narren. Nun, vielleicht bin ich ein Narr. Denn ich weigere mich, die Liebe
+    aufzugeben. Mit meinem Orb of Love kann ich das B\xF6se bezwingen und zum rechten
+    Pfad bekehren. Doch um die ganze Welt zu bekehren, reicht meine Kraft allein
+    nicht aus. Es existieren vier weitere Orbs: Goblin, Piss, Minus und Criminal
+    Energy, welche mir Kraft Spenden k\xF6nnen. Diese Orbs befinden sich in den H\xE4nden
+    einer niedertr\xE4chtigen Gruppe, unter der Leitung einer mysteri\xF6sen Frau
+    namens \u201COma\u201D, an einem Ort den Mann den kriminellen Untergrund nennt...
+    [fade out] [fade in] vor dem kriminellen Untergrund, man sieht einen Yakuza vor
+    dem Zugang stehen. Opa\u2019s Narration: Selbst ein Krieger der Liebe muss gelegentlich
+    Allianzen mit den M\xE4chten des B\xF6sen eingehen. Dieser Mann ist ein Mitglied
+    der Yakuza, und mein Zugang in den kriminellen Untergrund. Yakuza: Ban gohan
+    mo tabemashita ka. (Hast du das Geld mitgebrach) Opa: 5 Mark in Pfennigen, wie
+    vereinbart. Opa pr\xE4sentiert einen Sack mit einem Dollar Symbol. Der Yakuza
+    nimmt das Geld.s Yakuza: Kutsu no naka de, ashi ga itai desu. (Wir haben nie
+    miteinander gesprochen) Opa: Selbstverst\xE4ndlich. Yakuza: Toire ni ikitai,
+    matana. (Ich gehe kurz Bier holen. Die T\xFCr ist w\xE4hrenddessen unbewacht.)
+    [fade to black] Opa\u2019s Narration: Und so beginnt mein Abstieg in den kriminellen
+    Untergrund."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -275,7 +298,7 @@ MonoBehaviour:
   - "Opa\u2019s Narration: Diese Welt hat ist ein Abgrund. Geplagt von zahllosen
     Grausamkeiten. Die Eliten saugen den Wohlstand aus der Unterschicht wie Vampire.
     Wie eine Prostituierte, die f\xFCr 40 Mark [zensiert] um ihren vaterlosen Kindern
-    die Windeln zu bezahlen. Und die Liebe? Die Liebe liegt leblos in der Gosse,
+    die Windeln zu bezahlen.\\n Und die Liebe? Die Liebe liegt leblos in der Gosse,
     wie ebenjene Prostituierte nachdem ihr Klient sich geweigert hat, die 40 Mark
     zu bezahlen. Wer w\xFCrde probieren solch eine Leiche wiederzubeleben? Es br\xE4uchte
     einen Narren. Nun, vielleicht bin ich ein Narr. Denn ich weigere mich, die Liebe

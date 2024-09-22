@@ -564,7 +564,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3212958805331031807, guid: 12979b99c70c757449cc194a92945428, type: 3}
       propertyPath: m_LocalScale.x
@@ -2884,6 +2884,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Matheaufgabe 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8518279630950688208, guid: bace6ec56840d6440896c5fa8dec592d, type: 3}
+      propertyPath: m_text
+      value: '(sum((0.5      0.25)^ n), for n = 0 to infinity)
+
+
+        ((sin(6)^sin(0))       
+        cos(0))^2
+
+
+        =
+
+
+        log7(16807)         (390625)^(1/8)
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bace6ec56840d6440896c5fa8dec592d, type: 3}
 --- !u!4 &185512905 stripped
@@ -3439,6 +3455,9 @@ MonoBehaviour:
   HerzLayer:
     serializedVersion: 2
     m_Bits: 256
+  GigaHerzLayer:
+    serializedVersion: 2
+    m_Bits: 0
   ownCamera: {fileID: 2122845734}
   liebesHerz: {fileID: 0}
   goblinCube: {fileID: 177905542618364789, guid: 5ced761644ee9b84f8e074fbb33ddb87, type: 3}
@@ -18365,6 +18384,9 @@ MonoBehaviour:
   HerzLayer:
     serializedVersion: 2
     m_Bits: 256
+  GigaHerzLayer:
+    serializedVersion: 2
+    m_Bits: 0
   ownCamera: {fileID: 7869316}
   liebesHerz: {fileID: 0}
   goblinCube: {fileID: 177905542618364789, guid: 5ced761644ee9b84f8e074fbb33ddb87, type: 3}
@@ -36509,6 +36531,9 @@ MonoBehaviour:
   HerzLayer:
     serializedVersion: 2
     m_Bits: 256
+  GigaHerzLayer:
+    serializedVersion: 2
+    m_Bits: 0
   ownCamera: {fileID: 2112504053}
   liebesHerz: {fileID: 575104428}
   goblinCube: {fileID: 177905542618364789, guid: 5ced761644ee9b84f8e074fbb33ddb87, type: 3}
@@ -38322,6 +38347,9 @@ MonoBehaviour:
   HerzLayer:
     serializedVersion: 2
     m_Bits: 256
+  GigaHerzLayer:
+    serializedVersion: 2
+    m_Bits: 0
   ownCamera: {fileID: 1210744261}
   liebesHerz: {fileID: 0}
   goblinCube: {fileID: 177905542618364789, guid: 5ced761644ee9b84f8e074fbb33ddb87, type: 3}

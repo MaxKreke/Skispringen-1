@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 29.999979}
+  m_SizeDelta: {x: 0, y: -60.000042}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147267695
 MonoBehaviour:
@@ -232,10 +232,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 24.8
+  m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -332,118 +332,119 @@ MonoBehaviour:
     Und jetzt du. Goblin: Nein! Ich habe dich ausgetrickst, hahahaha. Und jetzt stirb!
     Oder \xFCberwinde mein Level."
   - 
-  - "Goblin: Neeeeeein! Keine Liebe, Goblins sind aromantisch. Opa: Aber es gibt
-    noch andere Arten von Liebe, als nur romantische Liebe. Goblin: Neeeeein! Keine
-    nuancierten Argumente, Goblins hassen Nuancen. Aaaaaah! Liebesexplosion Goblin:
-    Okay, wir sind Freunde. Du bist Patenonkel von Goblin-Nachwuchs #31 bis #120.
-    Opa: Ein Triumph f\xFCr die Liebe.  Erz\xE4hlung: Und so zeigte Opa einem Goblin
-    die platonische Liebe. Und zu zweit, wenn man ihre dreistellige Anzahl an Kindern
-    ignoriert, drangen sie tiefer vor, in den kriminellen Untergrund."
+  - "Goblin: Neeeeeein! Keine Liebe, Goblins sind aromantisch. <br>Opa: Aber es gibt
+    noch andere Arten von Liebe, als nur romantische Liebe. <br>Goblin: Neeeeein!
+    Keine nuancierten Argumente, Goblins hassen Nuancen. Aaaaaah! <br>Liebesexplosion
+    <br>Goblin: Okay, wir sind Freunde. <br>Du bist Patenonkel von Goblin-Nachwuchs
+    #31 bis #120. <br>Opa: Ein Triumph f\xFCr die Liebe.  <br>Erz\xE4hlung: Und so
+    zeigte Opa einem Goblin die platonische Liebe. Und zu zweit, wenn man ihre dreistellige
+    Anzahl an Kindern ignoriert, drangen sie tiefer vor, in den kriminellen Untergrund."
   - "Die olfaktorische Wahrhnehmung, auch Geruchssinn genannt, geh\xF6rt zu den ausgepr\xE4gtesten
-    Sinnen des Menschen. Noch bevor seine Augen etwas ersp\xE4hen konnten, oder seine
-    Ohren auch nur den leisesten Hinweis auf die Anwesenheit seines Gegners h\xF6ren
-    konnten, wusste Opa welches Orb ihm als n\xE4chstes begegnen w\xFCrde. Mit jedem
-    Schritt, der Opa in die tiefen des kriminellen Untergrunds f\xFChrte, wurde der
-    unverkennbare Geruch von Urin penetranter bis sich endlich der Nutzer des Orbs
-    offenbarte. pissboy erscheint hinter Opa und Goblin Pissboy: Halt! Opa und Goblin
-    drehen sich um Opa und Goblin: Nani?! Pissboy: Du bist bereits zu tief in den
-    kriminellen Untergrund vorgesto\xDFen. Doch ich werde deinem kleinen Ausflug
-    ein Ende bereiten. Ich, Pissboy, Nutzer des Orb of Piss. Mit meinem Orb of Piss
-    verhundertfacht sich die Kapazit\xE4t meiner Blase, so dass ich meine Feinde
-    in einer gelben Flut davon sp\xFClen kann. Des weiteren kann ich meinen Strahl
-    aus konzentriertem Urin wie ein Jetpack nutzen und damit fliegen. Gesteht es
-    euch ein, weder das Orb of Love, noch das Orb of Goblin k\xF6nnen mithalten.
-    Wenn ihr jetzt anfangt zu rennen schafft es vielleicht einer von euch lebendig
-    zur\xFCck an die Oberfl\xE4che. Opa: Du liegst falsch. Wir sind zu zweit, und
-    du nur allein. Und wir haben die Kraft der Liebe und der Goblins und einen rein
-    platonischen Bund, der st\xE4rker ist als dein Urin. Pissboy: Also suchst du
-    den Tod eines Kriegers? Den kann ich dir geben; Wenn du meinen Level \xFCberwinden
-    kannst. fliegt davon auf einem Strahl aus Urin"
+    <br>Sinnen des Menschen. <br>Noch bevor seine Augen etwas ersp\xE4hen konnten,
+    oder seine Ohren auch nur den leisesten Hinweis auf die Anwesenheit seines Gegners
+    h\xF6ren konnten, wusste Opa welches Orb ihm als n\xE4chstes begegnen w\xFCrde.
+    Mit jedem Schritt, der Opa in die tiefen des kriminellen Untergrunds f\xFChrte,
+    wurde der unverkennbare Geruch von Urin penetranter bis sich endlich der Nutzer
+    des Orbs offenbarte. <br>pissboy erscheint hinter Opa und Goblin <br>Pissboy:
+    Halt! <br>Opa und Goblin drehen sich um <br>Opa und Goblin: Nani?! <br>Pissboy:
+    Du bist bereits zu tief in den kriminellen Untergrund vorgesto\xDFen. Doch ich
+    werde deinem kleinen Ausflug ein Ende bereiten. Ich, Pissboy, Nutzer des Orb
+    of Piss. Mit meinem Orb of Piss verhundertfacht sich die Kapazit\xE4t meiner
+    Blase, so dass ich meine Feinde in einer gelben Flut davon sp\xFClen kann. Des
+    weiteren kann ich meinen Strahl aus konzentriertem Urin wie ein Jetpack nutzen
+    und damit fliegen. <br>Gesteht es euch ein, weder das Orb of Love, noch das Orb
+    of Goblin k\xF6nnen mithalten. Wenn ihr jetzt anfangt zu rennen schafft es vielleicht
+    einer von euch lebendig zur\xFCck an die Oberfl\xE4che. <br>Opa: Du liegst falsch.
+    <br>Wir sind zu zweit, und du nur allein. Und wir haben die Kraft der Liebe und
+    der Goblins und einen rein platonischen Bund, der st\xE4rker ist als dein Urin.
+    <br>Pissboy: Also suchst du den Tod eines Kriegers? Den kann ich dir geben; Wenn
+    du meinen Level \xFCberwinden kannst. <br>fliegt davon auf einem Strahl aus Urin"
   - 
   - "Goblin: Ah, Opas Herzen haben Pissboy getroffen. Aber Pissboy scheint die Liebe
-    nicht zu sp\xFCren, er k\xE4mpft weiter. Pissboy: Ich habe es euch gesagt, mein
-    Orb of Piss ist euren armseligen Orbs weit \xFCberlegen. Kurz bevor die Herzen
-    mich ber\xFChrt haben, habe ich mit einem pr\xE4zisen Schuss die Herzen mit einer
-    sch\xFCtzenden Schicht an Urin bedeckt. Das einzige was mich ber\xFChrt hat...War
-    Urin! Opa: Bist du dir da so sicher? Pissboy: Huh? Opa: Du warst so von der \xDCberlegenheit
-    deines Orbs \xFCberzeug, dass du dir eine riesige Bl\xF6\xDFe gegeben hast indem
-    du mich zu nah rangelassen hast. Du kannst vielleicht meine Herzen mit Urin bedecken.
-    Aber was tust du, gegen eine Liebesexplosion? Was du als n\xE4chstes sagen wirst,
-    ist \u201COh nein, ich sp\xFCre die Liebe.\u201D Liebesexplosion Pissboy: Oh
-    nein, ich sp\xFCre die Liebe. Opa: Untersch\xE4tze niemals, die Kraft der Liebe.
-    Pissboy: Ich verstehe jetzt, die Macht des Orbs hatte mich konvertiert. Lass
-    mich es wieder gut machen, indem ich euch beide den Rest des Weges begleite.
-    Opa: Nat\xFCrlich, wilkommen im Team.  Erz\xE4hlung: Und so, mit einem weiteren
-    Kameraden in seiner Gesellschaft, machte Opa sich auf den Weg. Immer tiefer in
-    den kriminellen Untergrund."
+    nicht zu sp\xFCren, er k\xE4mpft weiter. <br>Pissboy: Ich habe es euch gesagt,
+    mein Orb of Piss ist euren armseligen Orbs weit \xFCberlegen. Kurz bevor die
+    Herzen mich ber\xFChrt haben, habe ich mit einem pr\xE4zisen Schuss die Herzen
+    mit einer sch\xFCtzenden Schicht an Urin bedeckt. Das einzige was mich ber\xFChrt
+    hat...War Urin! <br>Opa: Bist du dir da so sicher? <br>Pissboy: Huh? <br>Opa:
+    Du warst so von der \xDCberlegenheit deines Orbs \xFCberzeug, dass du dir eine
+    riesige Bl\xF6\xDFe gegeben hast indem du mich zu nah rangelassen hast. Du kannst
+    vielleicht meine Herzen mit Urin bedecken. Aber was tust du, gegen eine Liebesexplosion?
+    Was du als n\xE4chstes sagen wirst, ist \u201COh nein, ich sp\xFCre die Liebe.\u201D
+    <br>Liebesexplosion <br>Pissboy: Oh nein, ich sp\xFCre die Liebe. <br>Opa: Untersch\xE4tze
+    niemals, die Kraft der Liebe. <br>Pissboy: Ich verstehe jetzt, die Macht des
+    Orbs hatte mich konvertiert. Lass mich es wieder gut machen, indem ich euch beide
+    den Rest des Weges begleite. <br>Opa: Nat\xFCrlich, wilkommen im Team. <br> <br>Erz\xE4hlung:
+    Und so, mit einem weiteren Kameraden in seiner Gesellschaft, machte Opa sich
+    auf den Weg. Immer tiefer in den kriminellen Untergrund."
   - "Die Gruppe betritt einen neuen Abschnitt, eine gro\xDFe H\xF6hle mit Wasserfall.
-    Man sieht die Gruppe von hinten. In der Ferne kniet ein Mann vor dem Orb of Minus. 
-    Goblin: Hey, seht mal, es ist Steve. Unser Untergrund-Werkstudent.  Opa: Er hat
-    den Orb of Minus!  Pissboy: Verpiss dich von dem Orb, Steve! Daf\xFCr hast du
-    noch nicht die Criminal Skills.  Steve: Nein! Niemals! Schaut wie sch\xF6n er
-    gl\xE4nzt. Er ist ganz mein! (massive evil laughter) GRAAAH!!  Eine Macht durchstr\xF6mt
-    Steve. Er hat starke Schmerzen, scheint die Macht fast nicht handlen zu k\xF6nnen,
-    aber dann verwandelt er sich in Minusmensch.  Minusmensch: MUAHARHARHAR! Steve?
-    Das war mein alter Name. Ich bin jetzt binomisch, ich habe einen zweiten Namen:
-    Ich bin nun Minusmensch! Und ich werde mit der Macht von Subtraktion und Addition
-    alle zu Tode langweilen! MMWHAHAHAHA!  Goblin: Wieso Addition?  Pissboy: Minus
-    und Minus ergibt Plus.  Goblin: Achso.  Minusmensch: Tausende Leichen von Mathesch\xFClern
-    werden meinen Weg pflastern! Opa: Wir machen dir einen Strich durch die Rechnung! 
-    Minusmensch: Ach ja? Versucht doch mich aufzuhalten! Orb of Minus, kalkuliere! 
-    Minusmensch reckt den Orb of Minus in die H\xF6he und der gesamte Ort verwandelt
-    sich in ein Koordinatennetz.  Minusmensch: H\xC4H\xC4! Tja, wie hoch war wohl
-    die Wahrscheinlichkeit, dass ihr mit diesem Bruch gerechnet habt? Vektoren, auf
-    auf!  Minusmensch verschie\xDFt Vektoren, mit denen er irgendwohin in den Raum
-    verschwindet. (Vielleicht den Wasserfall hoch)  Opa: Hinterher! "
+    Man sieht die <br>Gruppe von hinten. In der Ferne kniet ein Mann vor dem Orb
+    of Minus. <br>Goblin: Hey, seht mal, es ist Steve. Unser Untergrund-Werkstudent.
+    <br>Opa: Er hat den Orb of Minus! <br>Pissboy: Verpiss dich von dem Orb, Steve!
+    Daf\xFCr hast du noch nicht die Criminal Skills. <br>Steve: Nein! Niemals! Schaut
+    wie sch\xF6n er gl\xE4nzt. Er ist ganz mein! (massive evil laughter) GRAAAH!!
+    <br>Eine Macht durchstr\xF6mt Steve. Er hat starke Schmerzen, scheint die Macht
+    fast nicht handlen zu k\xF6nnen, aber dann verwandelt er sich in Minusmensch.
+    <br>Minusmensch: MUAHARHARHAR! Steve? Das war mein alter Name. Ich bin jetzt
+    binomisch, ich habe einen zweiten Namen: Ich bin nun Minusmensch! Und ich werde
+    mit der Macht von Subtraktion und Addition alle zu Tode langweilen! MMWHAHAHAHA!
+    <br>Goblin: Wieso Addition? <br>Pissboy: Minus und Minus ergibt Plus. <br>Goblin:
+    Achso. <br>Minusmensch: Tausende Leichen von Mathesch\xFClern werden meinen Weg
+    pflastern! <br>Opa: Wir machen dir einen Strich durch die Rechnung! <br>Minusmensch:
+    Ach ja? Versucht doch mich aufzuhalten! Orb of Minus, kalkuliere! <br>Minusmensch
+    reckt den Orb of Minus in die H\xF6he und der gesamte Ort verwandelt sich in
+    ein Koordinatennetz. <br>Minusmensch: H\xC4H\xC4! Tja, wie hoch war wohl die
+    Wahrscheinlichkeit, dass ihr mit diesem Bruch gerechnet habt? Vektoren, auf auf!
+    <br>Minusmensch verschie\xDFt Vektoren, mit denen er irgendwohin in den Raum
+    verschwindet. <br>Opa: Hinterher!"
   - 
-  - "Minusmensch (schreit gemuffled aus Sack heraus wie drachenlord ): IHR WERDET
-    MICH NIEMALS BESIEGEEEEN.    Opa: Besiegen werden wir dich nicht. Aber Konvertieren
+  - "Minusmensch (schreit gemuffled aus Sack heraus wie drachenlord: IHR WERDET MICH
+    NIEMALS BESIEGEEEEN. <br>Opa: Besiegen werden wir dich nicht. Aber Konvertieren
     schon. Wir werden dich konvertieren wie eine WEBP Datei. Die nerven. Obwohl moment,
     sind wir nicht in den 70ern oder so? Was f\xFCr Dateiformate gab es da?.. Ach
-    egal, los geht\u2019s.   Opa zerrt Minusmensch aus dem Sack   Minusmensch: Es
-    gibt keine Konversion, nur Addition und Subtraktion auf Ewig. Ihr werdet alle
-    abgezogen und dem Reich der Schatten hinzugez\xE4hlt. HAHAHA.   Opa: Du kannst
+    egal, los geht\u2019s. <br>Opa zerrt Minusmensch aus dem Sack <br>Minusmensch:
+    Es gibt keine Konversion, nur Addition und Subtraktion auf Ewig. Ihr werdet alle
+    abgezogen und dem Reich der Schatten hinzugez\xE4hlt. HAHAHA. <br>Opa: Du kannst
     abziehen so viel du willst. Doch Minus mal Minus ergibt Plus. \xDCber diese Worte,
-    deine Worte habe ich lange nachgedacht Steve\u2026 Multiple Addition ergibt Multiplikation.
-    Schonmal dr\xFCber nachgedacht. Alles l\xE4uft darauf hinaus. Dich Mal zu nehmen.  
-    Pissboy (fl\xFCsternd zu Goblin): Ich glaube wir sollten uns verpissen. Das kriegt
-    Opa alleine hin.   Goblin: Meinst du?   Pissboy: Ich muss auf jeden Fall Mal.
-    Und das ohne nehmen.   Goblin und Pissboy verschwinden. Opa und Minusmensch verbleiben
-    alleine im Raum.   Der Raum wird Dunkel, man h\xF6rt verst\xF6rende Sounds. Das
-    Licht geht wieder an. Opa und Mathemann sind auf dem Bett.   Opa: Mit der Macht
-    des Orb of Love erl\xF6se ich dich von der Existenz im Graubereich. Trage das
-    Mal der Liebe tief in dir. Schlie\xDFe dich uns an. Nutze die Zeichen f\xFCr
-    das Gute.   Mathemann: Ich sp\xFCre es. Tief in mir. Ich bin weder Steve noch
-    Minusmensch. Bin in mir selbst gel\xF6st.  Goblin und Pissboy kommen in den Raum.   
-    Pissboy: Lasst uns als Gruppe zusammenkommen. Oh warte\u2026   Goblin: Steve,
-    ist alles okay bei dir?  "
+    deine Worte habe ich lange nachgedacht Steve... Multiple Addition ergibt Multiplikation.
+    Schonmal dr\xFCber nachgedacht. Alles l\xE4uft darauf hinaus. Dich Mal zu nehmen.
+    P<br>issboy (fl\xFCsternd zu Goblin): Ich glaube wir sollten uns verpissen. Das
+    kriegt Opa alleine hin. <br>Goblin: Meinst du? <br>Pissboy: Ich muss auf jeden
+    Fall Mal. Und das ohne nehmen. <br>Goblin und Pissboy verschwinden. Opa und Minusmensch
+    verbleiben alleine im Raum. <br>Der Raum wird Dunkel, man h\xF6rt verst\xF6rende
+    Sounds. Das Licht geht wieder an. Opa und Mathemann sind auf dem Bett. <br>Opa:
+    Mit der Macht des Orb of Love erl\xF6se ich dich von der Existenz im Graubereich.
+    Trage das Mal der Liebe tief in dir. Schlie\xDFe dich uns an. Nutze die Zeichen
+    f\xFCr das Gute. <br>Mathemann: Ich sp\xFCre es. Tief in mir. Ich bin weder Steve
+    noch Minusmensch. Bin in mir selbst gel\xF6st. <br>Goblin und Pissboy kommen
+    in den Raum. <br>Pissboy: Lasst uns als Gruppe zusammenkommen. Oh warte... <br>Goblin:
+    Steve, ist alles okay bei dir?"
   - "Mathemann: \"Hallo, Freunde! Ich bin Mathemann, und durch die unendliche Kraft
-    der Liebe habe ich errechnet, dass ich... nun ja, Mathemann bin!\" Goblin: \"\xC4hm...
-    Was?\" Mathemann: \"Genau! Seht ihr, ich habe die Gleichung der Liebe aufgestellt.
-    Das sieht so aus: L plus O geteilt durch V, multipliziert mit E... ergibt Liebe!
-    Und Liebe, meine Freunde, ist der Beweis daf\xFCr, dass ich der einzig wahre
-    Mathemann bin!\" Pissboy: \"Aber... das ergibt doch keinen Sinn...\" Mathemann:
-    \"Genau! Aber wartet, es geht noch weiter. Durch die heilige Kraft des Orb of
-    Minus kann ich das Plus bilden und so jede Gleichung l\xF6sen! Ein Beispiel?
-    2 plus 2... minus... 2... ist... \xE4hm... 2! Seht ihr, wie einfach das ist?\"
-    Pissboy: \"Das... ist tats\xE4chlich korrekt. Aber was hat das mit uns zu tun?\"
-    Mathemann: \"Ah, gro\xDFartige Frage! Im Auftrag des Guten m\xF6chte ich eurer
-    Gruppe beitreten! Gemeinsam k\xF6nnen wir jede mathematische Herausforderung
-    l\xF6sen! Oder vielleicht einfach nur Mittagessen bestellen. Ganz egal! Mathemann
-    ist bereit!\" Pissboy: \"Aber... warum sollten wir jemanden wie dich brauchen?
-    Wir ben\xF6tigen nur den Orb of Minus\" Mathemann: \"Weil, liebe Freunde, Mathemann
-    nicht nur mit Zahlen k\xE4mpft, sondern auch mit dem Herzen! Und die Gleichung
-    meiner Liebe zu euch lautet: Mathemann plus Freunde gleich... UNENDLICHE MACHT!\"
-    Pissboy: \"Wir... wir sind uns nicht sicher, was wir davon halten sollen.\" Mathemann:
-    \"Keine Sorge! Mathemann wird alles durchrechnen! Und wenn die Liebe stimmt,
-    bin ich Teil der Gruppe. Sonst bleibt nur das Ergebnis \xFCbrig. Und das Ergebnis
-    ist immer... MATHEMANN!\" Goblin: \"Oh je...\" Mathemann: \"H\xF6rt die Weisheit
-    der Zahlen! Wir sind zusammen ein komplettes Set! Und niemand, niemand kann uns
-    unterteilen\u2026  au\xDFer durch null. Denn das ist wirklich ein Problem f\xFCr
-    eine andere Folge.\" Goblin: Welche Folge\u2026 hast du jetzt die dritte Wand
-    durchbrochen oder meinst du das im Sinne einer Zahlenfolge, also so mathematisch
-    dass man mehrere\u2026 Opa h\xE4lt Goblin Gef\xFChlvoll die Hand vor den Mund.
-    Opa: Shhh\u2026 shhhh.  "
+    der Liebe habe ich errechnet, dass ich... nun ja, Mathemann bin!\" <br>Goblin:
+    \"\xC4hm... Was?\" <br>Mathemann: \"Genau! Seht ihr, ich habe die Gleichung der
+    Liebe aufgestellt. Das sieht so aus: L plus O geteilt durch V, multipliziert
+    mit E... ergibt Liebe! Und Liebe, meine Freunde, ist der Beweis daf\xFCr, dass
+    ich der einzig wahre Mathemann bin!\" <br>Pissboy: \"Aber... das ergibt doch
+    keinen Sinn...\" <br>Mathemann: \"Genau! Aber wartet, es geht noch weiter. Durch
+    die heilige Kraft des Orb of Minus kann ich das Plus bilden und so jede Gleichung
+    l\xF6sen! Ein Beispiel? 2 plus 2... minus... 2... ist... \xE4hm... 2! Seht ihr,
+    wie einfach das ist?\" <br>Pissboy: \"Das... ist tats\xE4chlich korrekt. Aber
+    was hat das mit uns zu tun?\" <br>Mathemann: \"Ah, gro\xDFartige Frage! Im Auftrag
+    des Guten m\xF6chte ich eurer Gruppe beitreten! Gemeinsam k\xF6nnen wir jede
+    mathematische Herausforderung l\xF6sen! Oder vielleicht einfach nur Mittagessen
+    bestellen. Ganz egal! Mathemann ist bereit!\" <br>Pissboy: \"Aber... warum sollten
+    wir jemanden wie dich brauchen? Wir ben\xF6tigen nur den Orb of Minus\" <br>Mathemann:
+    \"Weil, liebe Freunde, Mathemann nicht nur mit Zahlen k\xE4mpft, sondern auch
+    mit dem Herzen! Und die Gleichung meiner Liebe zu euch lautet: Mathemann plus
+    Freunde gleich... UNENDLICHE MACHT!\" <br>Pissboy: \"Wir... wir sind uns nicht
+    sicher, was wir davon halten sollen.\" <br>Mathemann: \"Keine Sorge! Mathemann
+    wird alles durchrechnen! Und wenn die Liebe stimmt, bin ich Teil der Gruppe.
+    Sonst bleibt nur das Ergebnis \xFCbrig. Und das Ergebnis ist immer... MATHEMANN!\"
+    <br>Goblin: \"Oh je...\" <br>Mathemann: \"H\xF6rt die Weisheit der Zahlen! Wir
+    sind zusammen ein komplettes Set! Und niemand, niemand kann uns unterteilen...
+    au\xDFer durch null. Denn das ist wirklich ein Problem f\xFCr eine andere Folge.\"
+    <br>Goblin: Welche Folge... hast du jetzt die dritte Wand durchbrochen oder meinst
+    du das im Sinne einer Zahlenfolge, also so mathematisch dass man mehrere... <br>Opa
+    h\xE4lt Goblin Gef\xFChlvoll die Hand vor den Mund. <br>Opa: Shhh... shhhh."
   - "Es war einmal, in einem Land vor unserer Zeit. Dort lebte ein junges Wesen,
     eingesperrt in den Tiefen. Ihr K\xF6rper ein Gef\xE4ngnis. Ihr Geist sei frei
     so sagte man ihr, doch ihre Seele verhangen in gar furchtbaren Gedanken. Von
@@ -512,29 +513,30 @@ MonoBehaviour:
   - "\"Haben Sie jemals gedacht: 'Ich liebe Fernsehzeitschriften wie die H\xF6rzu?'
     Sind Sie verr\xFCckt nach Zeitungskiosken? Haben Sie eine Schw\xE4che f\xFCr
     Br\xFCcken? Und wer kann die Faszination f\xFCr Beschw\xF6rungen mit Orbs und
-    Enkelkindern leugnen?\" Beschwingte, \xFCbertriebene Verkaufsshow-Musik setzt
-    ein. \"Dann haben wir das ultimative Produkt f\xFCr Sie: OPA! Der einzige Mensch,
-    der all Ihre liebsten Dinge vereint. \"Stellen Sie sich vor: Opa und Oma, entflohen
-    aus dem dunklen Untergrund! Mit ihrer Criminal Energy, geformt aus einer Vergangenheit
-    als Untergrundbosse, steht ihnen nichts mehr im Wege!\" \"Die Criminal Energy
-    von Oma f\xE4rbt auf Opa ab... und wie es sich f\xFCr den Opa of Love geh\xF6rt,
-    zeigt er Oma viel Liebe. So viel Liebe, dass irgendwann der Vater des zuk\xFCnftigen
-    Enkels gezeugt wird! Ein Kind, ein Enkel \u2013 damit werden Opa und Oma ihrem
-    Namen mehr als gerecht!\" Erz\xE4hler: \"Doch Opa hat noch gr\xF6\xDFere Pl\xE4ne:
-    Er will noch einmal alle f\xFCnf Orbs besitzen und die ultimative Macht erreichen!
-    Diesmal jedoch hat er einen Plan: Keine unn\xF6tigen Risiken mehr! Er wei\xDF,
-    dass er Vorkehrungen treffen muss, um beim n\xE4chsten Mal keinen Schaden zu
-    erleiden \u2013 aber wie wird er es tun? Wird er Skispringen 2 \xFCberleben oder
-    erneut ein Risiko eingehen?\" Erz\xE4hler: \"OPA ist bereit f\xFCr das gr\xF6\xDFte
-    Abenteuer seines Lebens, und er wei\xDF schon genau, wie er es anstellt! Alles,
-    was er braucht, ist ein Enkel, ein H\xF6rzu-Fernsehzeitschriftenkiosk und...
-    ein genialer Vorwand!\" Erz\xE4hler: \"Greifen Sie JETZT zu und sichern Sie sich
-    OPA f\xFCr Ihr Zuhause! Aber aufgepasst \u2013 die Zeit l\xE4uft! OPA ist einzigartig
-    und wird schnell vergriffen sein!\" \"Rufen Sie JETZT an und sichern Sie sich
-    OPA f\xFCr Ihr Zuhause! Bestellen Sie in den n\xE4chsten 10 Minuten und erhalten
-    Sie ein GRATIS H\xF6rzu-Fernsehzeitschriften-Abo dazu!\" Stimme aus dem Off:
-    \"Angebot gilt nur solange der Vorrat reicht. Keine Garantie f\xFCr tats\xE4chliche
-    magische F\xE4higkeiten. Verwendung des Orbs auf eigene Gefahr.\" "
+    Enkelkindern leugnen?\" <br>Beschwingte, \xFCbertriebene Verkaufsshow-Musik setzt
+    ein. <br>\"Dann haben wir das ultimative Produkt f\xFCr Sie: OPA! Der einzige
+    Mensch, der all Ihre liebsten Dinge vereint. \"Stellen Sie sich vor: Opa und
+    Oma, entflohen aus dem dunklen Untergrund! Mit ihrer Criminal Energy, geformt
+    aus einer Vergangenheit als Untergrundbosse, steht ihnen nichts mehr im Wege!\"
+    <br>\"Die Criminal Energy von Oma f\xE4rbt auf Opa ab... und wie es sich f\xFCr
+    den Opa of Love geh\xF6rt, zeigt er Oma viel Liebe. So viel Liebe, dass irgendwann
+    der Vater des zuk\xFCnftigen Enkels gezeugt wird! Ein Kind, ein Enkel \u2013
+    damit werden Opa und Oma ihrem Namen mehr als gerecht!\" <br>Erz\xE4hler: \"Doch
+    Opa hat noch gr\xF6\xDFere Pl\xE4ne: Er will noch einmal alle f\xFCnf Orbs besitzen
+    und die ultimative Macht erreichen! Diesmal jedoch hat er einen Plan: Keine unn\xF6tigen
+    Risiken mehr! Er wei\xDF, dass er Vorkehrungen treffen muss, um beim n\xE4chsten
+    Mal keinen Schaden zu erleiden \u2013 aber wie wird er es tun? Wird er Skispringen
+    2 \xFCberleben oder erneut ein Risiko eingehen?\" <br>Erz\xE4hler: \"OPA ist
+    bereit f\xFCr das gr\xF6\xDFte Abenteuer seines Lebens, und er wei\xDF schon
+    genau, wie er es anstellt! Alles, was er braucht, ist ein Enkel, ein H\xF6rzu-Fernsehzeitschriftenkiosk
+    und... ein genialer Vorwand!\" <br>Erz\xE4hler: \"Greifen Sie JETZT zu und sichern
+    Sie sich OPA f\xFCr Ihr Zuhause! Aber aufgepasst \u2013 die Zeit l\xE4uft! OPA
+    ist einzigartig und wird schnell vergriffen sein!\" \"Rufen Sie JETZT an und
+    sichern Sie sich OPA f\xFCr Ihr Zuhause! Bestellen Sie in den n\xE4chsten 10
+    Minuten und erhalten Sie ein GRATIS H\xF6rzu-Fernsehzeitschriften-Abo dazu!\"
+    <br>Stimme aus dem Off: \"Angebot gilt nur solange der Vorrat reicht. Keine Garantie
+    f\xFCr tats\xE4chliche magische F\xE4higkeiten. Verwendung des Orbs auf eigene
+    Gefahr.\""
   - 
 --- !u!1 &211587194
 GameObject:
@@ -573,7 +575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -150, y: 75}
+  m_AnchoredPosition: {x: -150, y: 35}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &211587196
